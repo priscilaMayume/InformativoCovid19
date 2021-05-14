@@ -29,6 +29,25 @@ width: 474px;
 padding: 10px;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td{
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .enviar input {
 background-color: #069;
 height: 40px;
